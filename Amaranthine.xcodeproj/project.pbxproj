@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1B88871A407E7200266057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88861A407E7200266057 /* main.m */; };
+		0C1B888A1A407E7200266057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88891A407E7200266057 /* AppDelegate.m */; };
+		0C1B88901A407E7200266057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B888E1A407E7200266057 /* Main.storyboard */; };
+		0C1B88921A407E7200266057 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B88911A407E7200266057 /* Images.xcassets */; };
+		0C1B88951A407E7200266057 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B88931A407E7200266057 /* LaunchScreen.xib */; };
+		0C1B88A11A407E7200266057 /* AmaranthineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88A01A407E7200266057 /* AmaranthineTests.m */; };
+		0C1B88B01A40827900266057 /* CatalogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88AF1A40827900266057 /* CatalogTableViewController.m */; };
+		0C1B88B31A40836700266057 /* CatalogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88B21A40836700266057 /* CatalogTableViewCell.m */; };
+		0C1B88B71A40854F00266057 /* GlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88B61A40854F00266057 /* GlobalHelper.m */; };
+		0C1B88B91A4086D100266057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B88B81A4086D100266057 /* QuartzCore.framework */; };
+		0C1B88BB1A40876100266057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B88BA1A40876100266057 /* Foundation.framework */; };
+		0C1B88BE1A4089A200266057 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88BD1A4089A200266057 /* ColorHelper.m */; };
+		0C1B88C01A4089EC00266057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B88BF1A4089EC00266057 /* UIKit.framework */; };
+		71371BCC4E5A095C3C89A619 /* libPods-Amaranthine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09270CE551DC0866BDDA699 /* libPods-Amaranthine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1B889B1A407E7200266057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1B88791A407E7200266057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1B88801A407E7200266057;
+			remoteInfo = Amaranthine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1B88811A407E7200266057 /* Amaranthine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amaranthine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1B88851A407E7200266057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1B88861A407E7200266057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C1B88881A407E7200266057 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C1B88891A407E7200266057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C1B888F1A407E7200266057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C1B88911A407E7200266057 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C1B88941A407E7200266057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0C1B889A1A407E7200266057 /* AmaranthineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaranthineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1B889F1A407E7200266057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1B88A01A407E7200266057 /* AmaranthineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmaranthineTests.m; sourceTree = "<group>"; };
+		0C1B88AE1A40827900266057 /* CatalogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogTableViewController.h; sourceTree = "<group>"; };
+		0C1B88AF1A40827900266057 /* CatalogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogTableViewController.m; sourceTree = "<group>"; };
+		0C1B88B11A40836700266057 /* CatalogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogTableViewCell.h; sourceTree = "<group>"; };
+		0C1B88B21A40836700266057 /* CatalogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogTableViewCell.m; sourceTree = "<group>"; };
+		0C1B88B51A40854F00266057 /* GlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalHelper.h; sourceTree = "<group>"; };
+		0C1B88B61A40854F00266057 /* GlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalHelper.m; sourceTree = "<group>"; };
+		0C1B88B81A4086D100266057 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C1B88BA1A40876100266057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C1B88BC1A4089A200266057 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
+		0C1B88BD1A4089A200266057 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHelper.m; sourceTree = "<group>"; };
+		0C1B88BF1A4089EC00266057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C09270CE551DC0866BDDA699 /* libPods-Amaranthine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Amaranthine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40641998C182BBCF20191E /* Pods-Amaranthine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaranthine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaranthine/Pods-Amaranthine.debug.xcconfig"; sourceTree = "<group>"; };
+		DF48E17ECEA0B700DC565F29 /* Pods-Amaranthine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaranthine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaranthine/Pods-Amaranthine.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1B887E1A407E7200266057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B88C01A4089EC00266057 /* UIKit.framework in Frameworks */,
+				0C1B88BB1A40876100266057 /* Foundation.framework in Frameworks */,
+				0C1B88B91A4086D100266057 /* QuartzCore.framework in Frameworks */,
+				71371BCC4E5A095C3C89A619 /* libPods-Amaranthine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B88971A407E7200266057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1B88781A407E7200266057 = {
+			isa = PBXGroup;
+			children = (
+				0C1B88831A407E7200266057 /* Amaranthine */,
+				0C1B889D1A407E7200266057 /* AmaranthineTests */,
+				0C1B88821A407E7200266057 /* Products */,
+				D06F0146A347723ECCBF097A /* Pods */,
+				F96A9696F7767628934959F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1B88821A407E7200266057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88811A407E7200266057 /* Amaranthine.app */,
+				0C1B889A1A407E7200266057 /* AmaranthineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1B88831A407E7200266057 /* Amaranthine */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88B41A40853A00266057 /* Helper */,
+				0C1B88AA1A40824400266057 /* Catalog */,
+				0C1B88881A407E7200266057 /* AppDelegate.h */,
+				0C1B88891A407E7200266057 /* AppDelegate.m */,
+				0C1B888E1A407E7200266057 /* Main.storyboard */,
+				0C1B88911A407E7200266057 /* Images.xcassets */,
+				0C1B88931A407E7200266057 /* LaunchScreen.xib */,
+				0C1B88841A407E7200266057 /* Supporting Files */,
+			);
+			path = Amaranthine;
+			sourceTree = "<group>";
+		};
+		0C1B88841A407E7200266057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88851A407E7200266057 /* Info.plist */,
+				0C1B88861A407E7200266057 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C1B889D1A407E7200266057 /* AmaranthineTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88A01A407E7200266057 /* AmaranthineTests.m */,
+				0C1B889E1A407E7200266057 /* Supporting Files */,
+			);
+			path = AmaranthineTests;
+			sourceTree = "<group>";
+		};
+		0C1B889E1A407E7200266057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B889F1A407E7200266057 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C1B88AA1A40824400266057 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88AE1A40827900266057 /* CatalogTableViewController.h */,
+				0C1B88AF1A40827900266057 /* CatalogTableViewController.m */,
+				0C1B88B11A40836700266057 /* CatalogTableViewCell.h */,
+				0C1B88B21A40836700266057 /* CatalogTableViewCell.m */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		0C1B88B41A40853A00266057 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88B51A40854F00266057 /* GlobalHelper.h */,
+				0C1B88B61A40854F00266057 /* GlobalHelper.m */,
+				0C1B88BC1A4089A200266057 /* ColorHelper.h */,
+				0C1B88BD1A4089A200266057 /* ColorHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D06F0146A347723ECCBF097A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF40641998C182BBCF20191E /* Pods-Amaranthine.debug.xcconfig */,
+				DF48E17ECEA0B700DC565F29 /* Pods-Amaranthine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F96A9696F7767628934959F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B88BF1A4089EC00266057 /* UIKit.framework */,
+				0C1B88BA1A40876100266057 /* Foundation.framework */,
+				0C1B88B81A4086D100266057 /* QuartzCore.framework */,
+				C09270CE551DC0866BDDA699 /* libPods-Amaranthine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1B88801A407E7200266057 /* Amaranthine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1B88A41A407E7200266057 /* Build configuration list for PBXNativeTarget "Amaranthine" */;
+			buildPhases = (
+				D3AB75831A5E47F029CCC0A4 /* Check Pods Manifest.lock */,
+				0C1B887D1A407E7200266057 /* Sources */,
+				0C1B887E1A407E7200266057 /* Frameworks */,
+				0C1B887F1A407E7200266057 /* Resources */,
+				68328CC744A91970CE6DB8AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amaranthine;
+			productName = Amaranthine;
+			productReference = 0C1B88811A407E7200266057 /* Amaranthine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C1B88991A407E7200266057 /* AmaranthineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1B88A71A407E7200266057 /* Build configuration list for PBXNativeTarget "AmaranthineTests" */;
+			buildPhases = (
+				0C1B88961A407E7200266057 /* Sources */,
+				0C1B88971A407E7200266057 /* Frameworks */,
+				0C1B88981A407E7200266057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1B889C1A407E7200266057 /* PBXTargetDependency */,
+			);
+			name = AmaranthineTests;
+			productName = AmaranthineTests;
+			productReference = 0C1B889A1A407E7200266057 /* AmaranthineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1B88791A407E7200266057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = netra;
+				TargetAttributes = {
+					0C1B88801A407E7200266057 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0C1B88991A407E7200266057 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0C1B88801A407E7200266057;
+					};
+				};
+			};
+			buildConfigurationList = 0C1B887C1A407E7200266057 /* Build configuration list for PBXProject "Amaranthine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1B88781A407E7200266057;
+			productRefGroup = 0C1B88821A407E7200266057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1B88801A407E7200266057 /* Amaranthine */,
+				0C1B88991A407E7200266057 /* AmaranthineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1B887F1A407E7200266057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B88901A407E7200266057 /* Main.storyboard in Resources */,
+				0C1B88951A407E7200266057 /* LaunchScreen.xib in Resources */,
+				0C1B88921A407E7200266057 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B88981A407E7200266057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68328CC744A91970CE6DB8AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaranthine/Pods-Amaranthine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AB75831A5E47F029CCC0A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1B887D1A407E7200266057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B88B01A40827900266057 /* CatalogTableViewController.m in Sources */,
+				0C1B88BE1A4089A200266057 /* ColorHelper.m in Sources */,
+				0C1B88B71A40854F00266057 /* GlobalHelper.m in Sources */,
+				0C1B888A1A407E7200266057 /* AppDelegate.m in Sources */,
+				0C1B88B31A40836700266057 /* CatalogTableViewCell.m in Sources */,
+				0C1B88871A407E7200266057 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B88961A407E7200266057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B88A11A407E7200266057 /* AmaranthineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1B889C1A407E7200266057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1B88801A407E7200266057 /* Amaranthine */;
+			targetProxy = 0C1B889B1A407E7200266057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C1B888E1A407E7200266057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1B888F1A407E7200266057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C1B88931A407E7200266057 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1B88941A407E7200266057 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C1B88A21A407E7200266057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C1B88A31A407E7200266057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C1B88A51A407E7200266057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF40641998C182BBCF20191E /* Pods-Amaranthine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Amaranthine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C1B88A61A407E7200266057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF48E17ECEA0B700DC565F29 /* Pods-Amaranthine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Amaranthine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C1B88A81A407E7200266057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmaranthineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaranthine.app/Amaranthine";
+			};
+			name = Debug;
+		};
+		0C1B88A91A407E7200266057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmaranthineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaranthine.app/Amaranthine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1B887C1A407E7200266057 /* Build configuration list for PBXProject "Amaranthine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B88A21A407E7200266057 /* Debug */,
+				0C1B88A31A407E7200266057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1B88A41A407E7200266057 /* Build configuration list for PBXNativeTarget "Amaranthine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B88A51A407E7200266057 /* Debug */,
+				0C1B88A61A407E7200266057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1B88A71A407E7200266057 /* Build configuration list for PBXNativeTarget "AmaranthineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B88A81A407E7200266057 /* Debug */,
+				0C1B88A91A407E7200266057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1B88791A407E7200266057 /* Project object */;
+}
