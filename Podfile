@@ -4,6 +4,7 @@
 target 'Amaranthine' do
 pod 'SWRevealViewController', '~> 2.3'
 pod 'AFNetworking', '~> 2.5'
+pod 'Realm'
 
 end
 

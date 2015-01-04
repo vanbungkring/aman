@@ -20,6 +20,11 @@
 		0C1B88BB1A40876100266057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B88BA1A40876100266057 /* Foundation.framework */; };
 		0C1B88BE1A4089A200266057 /* ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B88BD1A4089A200266057 /* ColorHelper.m */; };
 		0C1B88C01A4089EC00266057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B88BF1A4089EC00266057 /* UIKit.framework */; };
+		0C7905B81A4FC29000FAC954 /* BarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7905B71A4FC29000FAC954 /* BarHelper.m */; };
+		0C7905CF1A503BA700FAC954 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7905CE1A503BA700FAC954 /* APIManager.m */; };
+		0C7905D21A503BB700FAC954 /* API+Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7905D11A503BB700FAC954 /* API+Catalog.m */; };
+		0C7905D51A503BCD00FAC954 /* API+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7905D41A503BCD00FAC954 /* API+Category.m */; };
+		0C79060A1A503FAB00FAC954 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7906091A503FAB00FAC954 /* Product.m */; };
 		71371BCC4E5A095C3C89A619 /* libPods-Amaranthine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09270CE551DC0866BDDA699 /* libPods-Amaranthine.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +61,16 @@
 		0C1B88BC1A4089A200266057 /* ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
 		0C1B88BD1A4089A200266057 /* ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHelper.m; sourceTree = "<group>"; };
 		0C1B88BF1A4089EC00266057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C7905B61A4FC29000FAC954 /* BarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarHelper.h; sourceTree = "<group>"; };
+		0C7905B71A4FC29000FAC954 /* BarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarHelper.m; sourceTree = "<group>"; };
+		0C7905CD1A503BA700FAC954 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		0C7905CE1A503BA700FAC954 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		0C7905D01A503BB700FAC954 /* API+Catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "API+Catalog.h"; sourceTree = "<group>"; };
+		0C7905D11A503BB700FAC954 /* API+Catalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+Catalog.m"; sourceTree = "<group>"; };
+		0C7905D31A503BCD00FAC954 /* API+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "API+Category.h"; sourceTree = "<group>"; };
+		0C7905D41A503BCD00FAC954 /* API+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+Category.m"; sourceTree = "<group>"; };
+		0C7906081A503FAB00FAC954 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		0C7906091A503FAB00FAC954 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		C09270CE551DC0866BDDA699 /* libPods-Amaranthine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Amaranthine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF40641998C182BBCF20191E /* Pods-Amaranthine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaranthine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaranthine/Pods-Amaranthine.debug.xcconfig"; sourceTree = "<group>"; };
 		DF48E17ECEA0B700DC565F29 /* Pods-Amaranthine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaranthine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaranthine/Pods-Amaranthine.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +121,8 @@
 		0C1B88831A407E7200266057 /* Amaranthine */ = {
 			isa = PBXGroup;
 			children = (
+				0C7905CC1A5039ED00FAC954 /* Manager */,
+				0C7905CB1A5039E500FAC954 /* Model */,
 				0C1B88B41A40853A00266057 /* Helper */,
 				0C1B88AA1A40824400266057 /* Catalog */,
 				0C1B88881A407E7200266057 /* AppDelegate.h */,
@@ -162,8 +179,32 @@
 				0C1B88B61A40854F00266057 /* GlobalHelper.m */,
 				0C1B88BC1A4089A200266057 /* ColorHelper.h */,
 				0C1B88BD1A4089A200266057 /* ColorHelper.m */,
+				0C7905B61A4FC29000FAC954 /* BarHelper.h */,
+				0C7905B71A4FC29000FAC954 /* BarHelper.m */,
 			);
 			name = Helper;
+			sourceTree = "<group>";
+		};
+		0C7905CB1A5039E500FAC954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C7906081A503FAB00FAC954 /* Product.h */,
+				0C7906091A503FAB00FAC954 /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0C7905CC1A5039ED00FAC954 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0C7905CD1A503BA700FAC954 /* APIManager.h */,
+				0C7905CE1A503BA700FAC954 /* APIManager.m */,
+				0C7905D01A503BB700FAC954 /* API+Catalog.h */,
+				0C7905D11A503BB700FAC954 /* API+Catalog.m */,
+				0C7905D31A503BCD00FAC954 /* API+Category.h */,
+				0C7905D41A503BCD00FAC954 /* API+Category.m */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 		D06F0146A347723ECCBF097A /* Pods */ = {
@@ -322,10 +363,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1B88B01A40827900266057 /* CatalogTableViewController.m in Sources */,
+				0C7905B81A4FC29000FAC954 /* BarHelper.m in Sources */,
+				0C79060A1A503FAB00FAC954 /* Product.m in Sources */,
+				0C7905D51A503BCD00FAC954 /* API+Category.m in Sources */,
 				0C1B88BE1A4089A200266057 /* ColorHelper.m in Sources */,
 				0C1B88B71A40854F00266057 /* GlobalHelper.m in Sources */,
+				0C7905CF1A503BA700FAC954 /* APIManager.m in Sources */,
 				0C1B888A1A407E7200266057 /* AppDelegate.m in Sources */,
 				0C1B88B31A40836700266057 /* CatalogTableViewCell.m in Sources */,
+				0C7905D21A503BB700FAC954 /* API+Catalog.m in Sources */,
 				0C1B88871A407E7200266057 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "CatalogTableViewController.h"
-
+#import "BarHelper.h"
 @interface CatalogTableViewController ()
 
 @end
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setDefaultAbraNavigationBar];
     self.title = @"Catalog";
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

@@ -20,14 +20,19 @@ PODS:
   - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Realm (0.89.1):
+    - Realm/Headers (= 0.89.1)
+  - Realm/Headers (0.89.1)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - Realm
   - SWRevealViewController (~> 2.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  Realm: 20b0bd13983d64fd22afeb47489729fd71b6b5c6
   SWRevealViewController: f6d80638b8e12323e87ac79562345403a799cb77
 
 COCOAPODS: 0.35.0

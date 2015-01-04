@@ -23,7 +23,7 @@
                                                                       forKey:NSFontAttributeName];
     
     //  Title font configuration
-    UIFont *titleFontType = [UIFont fontWithName:@"AvenirNext-Bold"
+    UIFont *titleFontType = [UIFont fontWithName:@"AvenirNext-Medium"
                                             size:17];
     
     NSDictionary *titleFontAttributes = [NSDictionary dictionaryWithObjects:@[titleFontType, [UIColor colorWithRed:1 green:0.659 blue:0 alpha:1]]
@@ -35,7 +35,7 @@
     
     //  Navigation bar configuration
     [[UINavigationBar appearance] setBarTintColor:[UIColor fafa]];
-    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:1 green:0.659 blue:0 alpha:1]];
+    [UINavigationBar appearance].tintColor = [UIColor orangeColor];
     [[UINavigationBar appearance] setTitleTextAttributes:titleFontAttributes];
     
     //  Navigation bar button item configuration
