@@ -8,6 +8,7 @@
 
 #import "CatalogTableViewController.h"
 #import "BarHelper.h"
+#import "DetailProductTableViewController.h"
 @interface CatalogTableViewController ()
 
 @end
@@ -46,5 +47,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"DetailProduct" bundle:nil];
+    DetailProductTableViewController *detail = [storyboard instantiateViewControllerWithIdentifier:@"DetailProductTableViewController"];
+    [self.navigationController pushViewController:detail animated:YES];
 }
 @end
